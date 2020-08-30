@@ -170,22 +170,6 @@ function moveAnimal(animal: Animal) {
   console.log("Moving at speed: " + speed);
 }
 
-let aBird: Animal = {
-  type: "bird",
-  flyingSpeed: 100,
-};
-
-let aHorse: Animal = {
-  type: "horse",
-  runningSpeed: 500,
-};
-
-console.log("bird");
-moveAnimal(aBird);
-
-console.log("horse");
-moveAnimal(aHorse);
-
 /* ------------------------------ TYPE CASTING ------------------------------ */
 console.log("TYPE CASTING");
 
@@ -231,4 +215,3 @@ const aUserInput = null;
 const storedData = aUserInput ?? "DEFAULT";
 
 console.log("storedData : ==>", storedData);
-     
