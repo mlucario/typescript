@@ -13,3 +13,4 @@ function countAndDescripte<T>(element: T): [T, string] {
         description = 'Got 1 elements';
     }
 }
+//where is my app.ts
