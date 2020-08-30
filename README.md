@@ -76,6 +76,18 @@ git clone https://github.com/mlucario/typescript.git
 npm install
 ```
 
+3. Run project
+
+```sh
+npm start
+```
+
+4. Auto convert to commonjs ( open on the other terminal tab)
+
+```sh
+tsc -w
+```
+
 ## Roadmap
 
 See the [open issues](https://github.com/mlucario/typescript/issues) for a list of proposed features (and known issues).
